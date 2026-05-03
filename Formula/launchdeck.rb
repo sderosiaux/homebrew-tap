@@ -5,13 +5,13 @@ class Launchdeck < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sderosiaux/launchdeck/releases/download/v0.1.0/launchdeck-aarch64-apple-darwin.tar.gz"
-      sha256 "3e4ba2b97906fe4e13bdce021f819747a9f35ca942f06e62fc595f045ede8e5f"
+      url "https://github.com/sderosiaux/launchdeck/releases/download/v0.1.1/launchdeck-aarch64-apple-darwin.tar.gz"
+      sha256 "ffd2b06c2ee3a97db5dda7c377ee99ded970f09659f37ceb7773072b7c38f3d9"
     end
 
     on_intel do
-      url "https://github.com/sderosiaux/launchdeck/releases/download/v0.1.0/launchdeck-x86_64-apple-darwin.tar.gz"
-      sha256 "aa49ab8ec54d50e72e99cd9b34d8697f1af91192f5a23d2404bb5272d03fd3bd"
+      url "https://github.com/sderosiaux/launchdeck/releases/download/v0.1.1/launchdeck-x86_64-apple-darwin.tar.gz"
+      sha256 "327d9266882c67c8da94ddccba526a2701df759c69a9f90a80318b5bd7e8eefe"
     end
   end
 

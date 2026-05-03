@@ -20,6 +20,6 @@ class Launchdeck < Formula
   end
 
   test do
-    assert_match "Launchdeck", shell_output("\#{bin}/launchdeck --help")
+    assert_match "Launchdeck", shell_output("#{bin}/launchdeck --help")
   end
 end

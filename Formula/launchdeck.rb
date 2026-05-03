@@ -1,7 +1,6 @@
 class Launchdeck < Formula
   desc "Keyboard-first macOS TUI for launchd jobs and Homebrew services"
   homepage "https://github.com/sderosiaux/launchdeck"
-  version "0.1.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do

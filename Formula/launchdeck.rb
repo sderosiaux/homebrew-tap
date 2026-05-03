@@ -5,13 +5,13 @@ class Launchdeck < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sderosiaux/launchdeck/releases/download/v0.1.1/launchdeck-aarch64-apple-darwin.tar.gz"
-      sha256 "ffd2b06c2ee3a97db5dda7c377ee99ded970f09659f37ceb7773072b7c38f3d9"
+      url "https://github.com/sderosiaux/launchdeck/releases/download/v0.1.2/launchdeck-aarch64-apple-darwin.tar.gz"
+      sha256 "9a44db9384928dc9de5d21011394375c049b08d94fedaf8fc390fb9eeb8358c4"
     end
 
     on_intel do
-      url "https://github.com/sderosiaux/launchdeck/releases/download/v0.1.1/launchdeck-x86_64-apple-darwin.tar.gz"
-      sha256 "327d9266882c67c8da94ddccba526a2701df759c69a9f90a80318b5bd7e8eefe"
+      url "https://github.com/sderosiaux/launchdeck/releases/download/v0.1.2/launchdeck-x86_64-apple-darwin.tar.gz"
+      sha256 "f60b316bde097176712e46e7db3cdbadc5054a5b6ae4fbf42158a27479881354"
     end
   end
 
@@ -20,6 +20,6 @@ class Launchdeck < Formula
   end
 
   test do
-    assert_match "Launchdeck", shell_output("#{bin}/launchdeck --help")
+    assert_match "Launchdeck", shell_output("\#{bin}/launchdeck --help")
   end
 end
